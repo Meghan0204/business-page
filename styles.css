@@ -1,0 +1,90 @@
+html, body {
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+#bizname {
+    font-family: 'Playfair Display', serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-home {
+    background-color: rgb(233, 232, 232);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.nav-line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: -4px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+
+/* BEGIN index.html specific styling */
+
+#main-home img {
+    width: 100%;
+}
+
+#home-about-us {
+    width: 100%;
+    text-align: center;
+}
+
+#home-about-us p {
+    padding: 30px;
+}
+
+/* END index.html styling */
+
+
+/* BEGIN samples.html styling */
+
+#samples-footer {
+    background-color: rgb(233, 232, 232);
+}
+
+.nav-seperator {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 10px
+}
+
+#main-header {
+    background-color: rgb(233, 232, 232);
+}
+
+
+/* END samples.html styling */
