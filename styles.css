@@ -1,90 +1,79 @@
-html, body {
-    padding: 0;
-    font-family: 'Playfair Display', serif;
-}
-
-header {
-    padding: 10px;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    
+  }
+  
+  main {
+    background-color: rgb(240, 240, 240);
     text-align: center;
-}
+    border-radius: 5px;
+    font-size: 20px;
+  }
 
-#bizname {
-    font-family: 'Playfair Display', serif;
-}
+  a {
+    text-decoration: none;
+    color: black;
+  }
 
-nav ul {
+  nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
     padding: 10px;
 }
+  
+  h1 {
+    padding-top: 30px;
+    font-size: 56px;
+    margin: 0;
+  }
+  
+  #about-subtitle {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+  #about {
+    padding: 20px;
+  }
 
-#main-home {
-    background-color: rgb(233, 232, 232);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.nav-line {
-    width: 100%;
+  .nav-line {
     height: 1px;
+    width: 100%;
     background-color: black;
-    margin-top: -4px;
-}
-
-footer {
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+  }
+  
+  .img-div {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  #timelineSubtitle {
+    padding-top: 30px;
+    font-size: 1.6rem;
+  }
+  
+  #index-footer {
     text-align: center;
     padding: 20px;
-    
 }
 
-footer ul {
+#index-footer ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     padding: 2px;
+    font-size: 15px;
 }
-
-
-/* BEGIN index.html specific styling */
-
-#main-home img {
-    width: 100%;
-}
-
-#home-about-us {
-    width: 100%;
-    text-align: center;
-}
-
-#home-about-us p {
-    padding: 30px;
-}
-
-/* END index.html styling */
-
-
-/* BEGIN samples.html styling */
-
-#samples-footer {
-    background-color: rgb(233, 232, 232);
-}
-
-.nav-seperator {
-    width: 100%;
-    height: 1px;
-    background-color: black;
-    margin-bottom: 10px
-}
-
-#main-header {
-    background-color: rgb(233, 232, 232);
-}
-
-
-/* END samples.html styling */
+  
